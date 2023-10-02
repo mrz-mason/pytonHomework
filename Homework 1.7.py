@@ -1,0 +1,5 @@
+budjet=input('Введите бюджет')
+budjet=int(budjet)
+price=float(input('Введите стоимость товара'))
+total=int(budjet // price)
+print('Вы cможете купить', total, 'товара')
